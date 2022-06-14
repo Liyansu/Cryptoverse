@@ -20,6 +20,7 @@ const App = () => {
       <div className="main">
         <Layout>
           <div className="routes">
+            <Homepage />
             {/* <Switch>
               <Route path="/" component={Homepage} />
               <Route path="/Cryptocurrencies" component={Cryptocurrencies} />
